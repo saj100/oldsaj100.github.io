@@ -1,5 +1,5 @@
 ## Front Door
 
-![Front Door](IMG_5204.HEIC)
+![Front Door](images/front_door.jpg)
 
 You are outside the Society for the Advancement of Judaism, or SAJ.
