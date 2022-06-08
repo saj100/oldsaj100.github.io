@@ -1,6 +1,6 @@
 ---
+section: Music
+title: Music at the SAJ
 layout: bare
 ---
-# Music at the SAJ
-
 Music has always been the principal art-form of Jewish civilization and the same can be said of the SAJ.  Both religious and secular, both spiritually uplifting and aesthetically gratifying, music is the artistic glue that binds congregational life together.  Jewish music was instrumental in both the liturgical advances of 20th century American Judaism and in the new Jewish folk arts of cultural Zionism.  At a time when New York City boasted the likes of Irving Berlin, George Gershwin, Aaron Copland, and Leonard Bernstein, Kaplan’s SAJ was the institutional home for Jewish musical luminaries such as Abraham Idelsohn, Moshe Nathanson, Tsipora Jochsberger, Judith Kaplan Eisenstein, and Chemjo Vinaver.  As the cantors and musical directors of SAJ, each of these historical figures has a unique story yet all shared an intuitive understanding of the duality of Jewish music, committed as much to its religious import as to its cultural utility.  All were passionate advocates of the musical arts—composers, performers, and educators who infused the culture of SAJ with the central religious art of music, a centrality that has remained in effect to the current day.
