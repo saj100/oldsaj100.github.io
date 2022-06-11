@@ -2,10 +2,8 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: default
+layout: home
 ---
-# The SAJ Experience
-
 Welcome to “THE SAJ EXPERIENCE,” a virtual, online ‘museum exhibition’ celebrating the centennial anniversary of the Society for the Advancement of Judaism/SAJ: Judaism That Stands For All.  The ‘experience’ is a simulated tour of the SAJ building meant to tell the greater story of SAJ—its past, its purpose, its people—through five key themes corresponding to five key spaces in the building:
 
 1. HISTORY – the building entrance
@@ -21,4 +19,3 @@ Throughout, we will highlight the creative tension at the heart of the SAJ, a dy
 Yet the SAJ also developed the attributes of a conventional synagogue. As a beloved bet am ('house of the people') on the Upper Westside of Manhattan, it has a proud history of building community, offering religious services, teaching children and adults, celebrating holidays and family simchas, balancing budgets, raising funds, organizing events, planning calendars, publishing newsletters, offering cultural activities, supporting social causes, etc.—that is, all the many functions of a Jewish congregation in America.  In the end the SAJ is all that and more—as explored in multiple dimensions of virtual reality in ‘The SAJ Experience.’  We hope you enjoy!
 
 If you're ready [Click Here to Enter the Tour](/app-files/index.html)
-
