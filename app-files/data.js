@@ -172,22 +172,22 @@ var APP_DATA = {
           "target": "4-rabbi_office"
         },
         {
-          "yaw": 1.6526761833020363,
-          "pitch": 0.2936752890807526,
-          "rotation": 4.71238898038469,
-          "target": "8-kaplan_lounge"
-        },
-        {
           "yaw": 1.6555341544480342,
           "pitch": 0.0716840619601875,
           "rotation": 0,
           "target": "7-social_hall"
         },
         {
+          "yaw": -3.1278832567158055,
+          "pitch": 0.19705053790182937,
+          "rotation": 5.21238898038469,
+          "target": "9-school"
+        },
+        {
           "yaw": -2.9278832567158055,
           "pitch": 0.08705053790182937,
-          "rotation": 4.71238898038469,
-          "target": "9-school"
+          "rotation": 2.1707963267948966,
+          "target": "1-lobby"
         }
       ],
       "infoHotspots": [
@@ -330,7 +330,7 @@ var APP_DATA = {
           "yaw": -1.1017408150902313,
           "pitch": 0.11494848656262668,
           "rotation": 0,
-          "target": "8-kaplan_lounge"
+          "target": "3-second_floor_hallway"
         }
       ],
       "infoHotspots": []
