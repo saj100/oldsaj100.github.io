@@ -1,0 +1,272 @@
+{
+    "hotSpotDebug": true,
+    "keyboardZoom": false,
+    "autoLoad": true,
+    "default": {
+        "firstScene": "facade",
+        "author": "Mike Beller",
+        "sceneFadeDuration": 1000
+    },
+    "scenes": {
+        "facade": {
+            "title": "Facade",
+            "hfov": 110,
+            "pitch": -9.3,
+            "yaw": -1.5,
+            "type": "equirectangular",
+            "panorama": "/images/facade.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -9.3,
+                    "yaw": -1.5,
+                    "type": "scene",
+                    "text": "Lobby",
+                    "sceneId": "lobby"
+                }
+            ]
+        },
+        "lobby": {
+            "title": "Lobby",
+            "hfov": 91,
+            "pitch": -9.2,
+            "yaw": -11.6,
+            "type": "equirectangular",
+            "panorama": "/images/lobby.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -8.8,
+                    "yaw": -22.3,
+                    "type": "scene",
+                    "text": "Sanctuary",
+                    "sceneId": "sanctuary"
+                },
+                {
+                    "pitch": -1.3,
+                    "yaw": 100.6,
+                    "type": "scene",
+                    "text": "Second Floor Hallway",
+                    "sceneId": "second_floor_hallway"
+                }
+            ]
+        },
+        "sanctuary": {
+            "title": "Sanctuary",
+            "hfov": 100,
+            "pitch": -3.9,
+            "yaw": 1.5,
+            "type": "equirectangular",
+            "panorama": "/images/sanctuary.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -1.1,
+                    "yaw": 78,
+                    "type": "scene",
+                    "text": "Lobby",
+                    "sceneId": "lobby"
+                }
+            ]
+        },
+        "second_floor_hallway": {
+            "title": "Second Floor Hallway",
+            "hfov": 120,
+            "pitch": -5.5,
+            "yaw": 34.1,
+            "type": "equirectangular",
+            "panorama": "/images/second_floor_hallway.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -13.7,
+                    "yaw": -25.5,
+                    "type": "scene",
+                    "text": "Rabbi Office",
+                    "sceneId": "rabbi_office"
+                },
+                {
+                    "pitch": 0.5,
+                    "yaw": -10.6,
+                    "type": "scene",
+                    "text": "Cantor Office",
+                    "sceneId": "cantor_office"
+                },
+                {
+                    "pitch": -23.4,
+                    "yaw": -8.6,
+                    "type": "scene",
+                    "text": "School Director Office",
+                    "sceneId": "school_director_office"
+                },
+                {
+                    "pitch": -5.0,
+                    "yaw": 92.7,
+                    "type": "scene",
+                    "text": "Social Hall",
+                    "sceneId": "social_hall"
+                },
+                {
+                    "pitch": 3.1,
+                    "yaw": 171.3,
+                    "type": "scene",
+                    "text": "School Hallway",
+                    "sceneId": "school_hallway"
+                },
+                {
+                    "pitch": -15.5,
+                    "yaw": -152.7,
+                    "type": "scene",
+                    "text": "Lobby",
+                    "sceneId": "lobby"
+                }
+            ]
+        },
+        "rabbi_office": {
+            "title": "Rabbi Office",
+            "hfov": 110,
+            "pitch": -9.3,
+            "yaw": -1.5,
+            "type": "equirectangular",
+            "panorama": "/images/rabbi_office.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -4.9,
+                    "yaw": 121.1,
+                    "type": "scene",
+                    "text": "Second Floor Hallway",
+                    "sceneId": "second_floor_hallway"
+                }
+            ]
+        },
+        "cantor_office": {
+            "title": "Cantor Office",
+            "hfov": 110,
+            "pitch": -9.3,
+            "yaw": -1.5,
+            "type": "equirectangular",
+            "panorama": "/images/cantor_office.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -9.1,
+                    "yaw": 66.7,
+                    "type": "scene",
+                    "text": "Second Floor Hallway",
+                    "sceneId": "second_floor_hallway"
+                }
+            ]
+        },
+        "school_director_office": {
+            "title": "School Director Office",
+            "hfov": 110,
+            "pitch": -12.5,
+            "yaw": 3.3,
+            "type": "equirectangular",
+            "panorama": "/images/school_director_office.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -4.0,
+                    "yaw": 148.6,
+                    "type": "scene",
+                    "text": "Second Floor Hallway",
+                    "sceneId": "second_floor_hallway"
+                }
+            ]
+        },
+        "kaplan_lounge": {
+            "title": "Kaplan Lounge",
+            "hfov": 110,
+            "pitch": -9.3,
+            "yaw": -1.5,
+            "type": "equirectangular",
+            "panorama": "/images/kaplan_lounge.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -9.3,
+                    "yaw": -1.5,
+                    "type": "scene",
+                    "text": "XXX",
+                    "sceneId": "XXX"
+                }
+            ]
+        },
+        "social_hall": {
+            "title": "Social Hall",
+            "hfov": 110,
+            "pitch": -9.3,
+            "yaw": -1.5,
+            "type": "equirectangular",
+            "panorama": "/images/social_hall.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -4.8,
+                    "yaw": -63.2,
+                    "type": "scene",
+                    "text": "Second Floor Hallway",
+                    "sceneId": "second_floor_hallway"
+                }
+            ]
+        },
+        "school_hallway": {
+            "title": "School Hallway",
+            "hfov": 110,
+            "pitch": -9.3,
+            "yaw": -1.5,
+            "type": "equirectangular",
+            "panorama": "/images/school_hallway.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -6.8,
+                    "yaw": -167.8,
+                    "type": "scene",
+                    "text": "Second Floor Hallway",
+                    "sceneId": "second_floor_hallway"
+                },
+                {
+                    "pitch": -1.0,
+                    "yaw": 25.9,
+                    "type": "scene",
+                    "text": "Room 300",
+                    "sceneId": "room_300"
+                },
+                {
+                    "pitch": -2.8,
+                    "yaw": 42.6,
+                    "type": "scene",
+                    "text": "Room 302",
+                    "sceneId": "room_302"
+                }
+            ]
+        },
+        "room_300": {
+            "title": "Room 300",
+            "hfov": 120,
+            "pitch": -7.4,
+            "yaw": -17.6,
+            "type": "equirectangular",
+            "panorama": "/images/room_300.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -3.5,
+                    "yaw": -33.9,
+                    "type": "scene",
+                    "text": "School Hallway",
+                    "sceneId": "school_hallway"
+                }
+            ]
+        },
+        "room_302": {
+            "title": "Room 302",
+            "hfov": 120,
+            "pitch": -7.6,
+            "yaw": 0.0,
+            "type": "equirectangular",
+            "panorama": "/images/room_302.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -3.7,
+                    "yaw": -83.5,
+                    "type": "scene",
+                    "text": "School Hallway",
+                    "sceneId": "school_hallway"
+                }
+            ]
+        }
+    }
+}
