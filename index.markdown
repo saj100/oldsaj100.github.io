@@ -18,4 +18,4 @@ Throughout, we will highlight the creative tension at the heart of the SAJ, a dy
 
 Yet the SAJ also developed the attributes of a conventional synagogue. As a beloved bet am ('house of the people') on the Upper Westside of Manhattan, it has a proud history of building community, offering religious services, teaching children and adults, celebrating holidays and family simchas, balancing budgets, raising funds, organizing events, planning calendars, publishing newsletters, offering cultural activities, supporting social causes, etc.—that is, all the many functions of a Jewish congregation in America.  In the end the SAJ is all that and more—as explored in multiple dimensions of virtual reality in ‘The SAJ Experience.’  We hope you enjoy!
 
-If you're ready [Click Here to Enter the Tour](/app-files/index.html)
+If you're ready [Click Here to Enter the Tour](/site/tour.html)
