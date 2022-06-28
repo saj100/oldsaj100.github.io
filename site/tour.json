@@ -14,7 +14,7 @@
             "pitch": -9.3,
             "yaw": -1.5,
             "type": "equirectangular",
-            "panorama": "/images/facade.jpg",
+            "panorama": "images/facade.jpg",
             "hotSpots": [
                 {
                     "pitch": -9.3,
@@ -31,7 +31,7 @@
             "pitch": -9.2,
             "yaw": -11.6,
             "type": "equirectangular",
-            "panorama": "/images/lobby.jpg",
+            "panorama": "images/lobby.jpg",
             "hotSpots": [
                 {
                     "pitch": -8.8,
@@ -55,7 +55,7 @@
             "pitch": -3.9,
             "yaw": 1.5,
             "type": "equirectangular",
-            "panorama": "/images/sanctuary.jpg",
+            "panorama": "images/sanctuary.jpg",
             "hotSpots": [
                 {
                     "pitch": -1.1,
@@ -72,7 +72,7 @@
             "pitch": -5.5,
             "yaw": 34.1,
             "type": "equirectangular",
-            "panorama": "/images/second_floor_hallway.jpg",
+            "panorama": "images/second_floor_hallway.jpg",
             "hotSpots": [
                 {
                     "pitch": -13.7,
@@ -124,7 +124,7 @@
             "pitch": -9.3,
             "yaw": -1.5,
             "type": "equirectangular",
-            "panorama": "/images/rabbi_office.jpg",
+            "panorama": "images/rabbi_office.jpg",
             "hotSpots": [
                 {
                     "pitch": -4.9,
@@ -141,7 +141,7 @@
             "pitch": -9.3,
             "yaw": -1.5,
             "type": "equirectangular",
-            "panorama": "/images/cantor_office.jpg",
+            "panorama": "images/cantor_office.jpg",
             "hotSpots": [
                 {
                     "pitch": -9.1,
@@ -158,7 +158,7 @@
             "pitch": -12.5,
             "yaw": 3.3,
             "type": "equirectangular",
-            "panorama": "/images/school_director_office.jpg",
+            "panorama": "images/school_director_office.jpg",
             "hotSpots": [
                 {
                     "pitch": -4.0,
@@ -175,7 +175,7 @@
             "pitch": -9.3,
             "yaw": -1.5,
             "type": "equirectangular",
-            "panorama": "/images/kaplan_lounge.jpg",
+            "panorama": "images/kaplan_lounge.jpg",
             "hotSpots": [
                 {
                     "pitch": -9.3,
@@ -192,7 +192,7 @@
             "pitch": -9.3,
             "yaw": -1.5,
             "type": "equirectangular",
-            "panorama": "/images/social_hall.jpg",
+            "panorama": "images/social_hall.jpg",
             "hotSpots": [
                 {
                     "pitch": -4.8,
@@ -209,7 +209,7 @@
             "pitch": -9.3,
             "yaw": -1.5,
             "type": "equirectangular",
-            "panorama": "/images/school_hallway.jpg",
+            "panorama": "images/school_hallway.jpg",
             "hotSpots": [
                 {
                     "pitch": -6.8,
@@ -240,7 +240,7 @@
             "pitch": -7.4,
             "yaw": -17.6,
             "type": "equirectangular",
-            "panorama": "/images/room_300.jpg",
+            "panorama": "images/room_300.jpg",
             "hotSpots": [
                 {
                     "pitch": -3.5,
@@ -257,7 +257,7 @@
             "pitch": -7.6,
             "yaw": 0.0,
             "type": "equirectangular",
-            "panorama": "/images/room_302.jpg",
+            "panorama": "images/room_302.jpg",
             "hotSpots": [
                 {
                     "pitch": -3.7,
