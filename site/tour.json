@@ -4,7 +4,6 @@
     "autoLoad": true,
     "default": {
         "firstScene": "facade",
-        "author": "Mike Beller",
         "sceneFadeDuration": 1000
     },
     "scenes": {
@@ -22,6 +21,13 @@
                     "type": "scene",
                     "text": "Lobby",
                     "sceneId": "lobby"
+                },
+                {
+                    "pitch": 16.7,
+                    "yaw": -19.0,
+                    "type": "info",
+                    "text": "The Name: SAJ",
+                    "clickHandlerArgs": "https://saj100.github.io/history/name.html"
                 }
             ]
         },
@@ -39,6 +45,13 @@
                     "type": "scene",
                     "text": "Sanctuary",
                     "sceneId": "sanctuary"
+                },
+                {
+                    "pitch": 6.6,
+                    "yaw": -163.0,
+                    "type": "scene",
+                    "text": "Facade",
+                    "sceneId": "facade"
                 },
                 {
                     "pitch": -1.3,
@@ -63,6 +76,13 @@
                     "type": "scene",
                     "text": "Lobby",
                     "sceneId": "lobby"
+                },
+                {
+                    "pitch": 3.6,
+                    "yaw": 8.7,
+                    "type": "info",
+                    "text": "Reconstructionism",
+                    "clickHandlerArgs": "https://saj100.github.io/religion/reconstructionism.html"
                 }
             ]
         },
