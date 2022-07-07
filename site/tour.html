@@ -48,19 +48,21 @@
     </div>
     <script>
 
-        function addHotspotHandlersToConfig(config) {
-            // warning this mutates the original config
+        function tweakConfig(config) {
+            // Add any global changes you wish to make to the config
+            // Easier than editing the config json file
+            // Warning this mutates the original config object
             for (sceneName in config.scenes) {
                 // should check ownProperties?
                 let scene = config.scenes[sceneName];
                 for (i in scene.hotSpots) {
                     hotSpot = scene.hotSpots[i];
+                    // Assign the special hotspot function for 'info' hotspots
                     if (hotSpot.type == 'info' && hotSpot.clickHandlerArgs) {
                         hotSpot.clickHandlerFunc = hotspotFunc;
-                        console.log(sceneName, hotSpot);
-                    } else {
-                        console.log(sceneName, hotSpot);
                     }
+                    // Force all hotspot icons to scale
+                    hotSpot.scale = true;
                 }
             }
         }
@@ -91,7 +93,7 @@
                 return res.json();
             })
             .then(config => {
-                addHotspotHandlersToConfig(config); // mutates!!
+                tweakConfig(config); // mutates!!
                 console.log(config);
                 pannellum.viewer('panorama', config);
             })
