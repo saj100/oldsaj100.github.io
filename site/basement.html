@@ -1,0 +1,22 @@
+<html>
+
+<head></head>
+
+<body>
+    <div class="container" style="height: 100vh; width: 100vh">
+        <img height="100%" width="100%" id="image" src="images/basement1.jpg" onClick="rotate()" />
+    </div>
+    <script>
+        function rotate() {
+            let imgTag = document.querySelector("#image");
+            //console.log("Current tag ", imgTag.src);
+            if (imgTag.src.endsWith("images/basement1.jpg")) {
+                imgTag.src = "images/basement2.jpg";
+            } else if (imgTag.src.endsWith("images/basement2.jpg")) {
+                imgTag.src = "images/basement3.jpg";
+            }
+        }
+    </script>
+</body>
+
+</html>

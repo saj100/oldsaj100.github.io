@@ -59,6 +59,13 @@
                     "type": "scene",
                     "text": "Second Floor Hallway",
                     "sceneId": "second_floor_hallway"
+                },
+                {
+                    "pitch": -9.3,
+                    "yaw": -73.6,
+                    "type": "info",
+                    "text": "Secret Passage",
+                    "clickHandlerArgs": "basement.html"
                 }
             ]
         },
