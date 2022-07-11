@@ -83,6 +83,13 @@
                     "type": "info",
                     "text": "Reconstructionism",
                     "clickHandlerArgs": "https://saj100.github.io/religion/reconstructionism.html"
+                },
+                {
+                    "pitch": 5.6,
+                    "yaw": 24.6,
+                    "type": "info",
+                    "text": "Judith Kaplan",
+                    "clickHandlerArgs": "https://www.youtube.com/embed/4c2m4zNP4dQ"
                 }
             ]
         },
