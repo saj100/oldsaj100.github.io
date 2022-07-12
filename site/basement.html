@@ -1,20 +1,50 @@
 <html>
 
-<head></head>
+<head>
+    <style>
+        .container {
+            height: 100vh;
+            width: 100vh;
+            position: relative;
+        }
+
+        img {
+            position: absolute;
+            opacity: 0;
+            -webkit-transition: opacity 1s ease-in-out;
+            -moz-transition: opacity 1s ease-in-out;
+            -o-transition: opacity 1s ease-in-out;
+            transition: opacity 1s ease-in-out;
+            height: 100%;
+            width: 100%;
+        }
+
+        img.opaque {
+            opacity: 1;
+        }
+    </style>
+</head>
 
 <body>
-    <div class="container" style="height: 100vh; width: 100vh">
-        <img height="100%" width="100%" id="image" src="images/basement1.jpg" onClick="rotate()" />
+    <div class="container" onClick="rotate()">
+        <img id="img1" class="opaque" src="images/basement1.jpg" />
+        <img id="img2" src="images/basement2.jpg" />
+        <img id="img3" src="images/basement3.jpg" />
     </div>
     <script>
+        let currentImageId = "#img1";
+
         function rotate() {
-            let imgTag = document.querySelector("#image");
-            //console.log("Current tag ", imgTag.src);
-            if (imgTag.src.endsWith("images/basement1.jpg")) {
-                imgTag.src = "images/basement2.jpg";
-            } else if (imgTag.src.endsWith("images/basement2.jpg")) {
-                imgTag.src = "images/basement3.jpg";
+            let newImageId = { "#img1": "#img2", "#img2": "#img3", "#img3": "#img3" }[currentImageId];
+            if (!newImageId) {
+                newImageId = "#img1";
             }
+            console.log("got here", currentImageId, newImageId);
+            let imgTag = document.querySelector(currentImageId);
+            imgTag.classList.remove("opaque");
+            let newImgTag = document.querySelector(newImageId)
+            newImgTag.classList.add("opaque")
+            currentImageId = newImageId;
         }
     </script>
 </body>
