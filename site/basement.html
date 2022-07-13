@@ -30,21 +30,27 @@
         <img id="img1" class="opaque" src="images/basement1.jpg" />
         <img id="img2" src="images/basement2.jpg" />
         <img id="img3" src="images/basement3.jpg" />
+        <img id="smoke" src="images/smoke_slow.gif" />
     </div>
     <script>
         let currentImageId = "#img1";
 
         function rotate() {
-            let newImageId = { "#img1": "#img2", "#img2": "#img3", "#img3": "#img3" }[currentImageId];
+            let newImageId = { "#img1": "#img2", "#img2": "#smoke", "#smoke": "#img3", "#img3": "#img3" }[currentImageId];
             if (!newImageId) {
                 newImageId = "#img1";
             }
-            console.log("got here", currentImageId, newImageId);
+            //console.log("rotate ", currentImageId, newImageId);
             let imgTag = document.querySelector(currentImageId);
+            let newImgTag = document.querySelector(newImageId);
+            //let smokeImgTag = document.querySelector("#smoke");
             imgTag.classList.remove("opaque");
-            let newImgTag = document.querySelector(newImageId)
             newImgTag.classList.add("opaque")
             currentImageId = newImageId;
+            if (newImageId == "#smoke") {
+                setTimeout(rotate, 3000);
+            }
+
         }
     </script>
 </body>
