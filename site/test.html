@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Test Example</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+    <style>
+        #panorama {
+            width: 600px;
+            height: 400px;
+        }
+
+        /*
+        idea from: https://github.com/mpetroff/pannellum/issues/116 */
+
+        .testcss {
+            height: 50px;
+            width: 50px;
+            background: #f00;
+        }
+
+        .custom-hotspot {
+            height: 300px;
+            width: 300px;
+            background: #fff;
+        }
+
+        div.custom-tooltip span {
+            visibility: hidden;
+            position: absolute;
+            border-radius: 3px;
+            background-color: #fff;
+            color: #000;
+            text-align: center;
+            max-width: 200px;
+            padding: 5px 10px;
+            margin-left: -220px;
+            cursor: default;
+        }
+
+        div.custom-tooltip:hover span {
+            visibility: visible;
+        }
+
+        div.custom-tooltip:hover span:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-width: 10px;
+            border-style: solid;
+            border-color: #fff transparent transparent transparent;
+            bottom: -20px;
+            left: -10px;
+            margin: 0 50%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="panorama"></div>
+
+    <script>
+        // Create viewer
+        viewer = pannellum.viewer('panorama', {
+            "panorama": "images/facade.jpg",
+            "hfov": 110,
+            "pitch": -9.3,
+            "yaw": -1.5,
+            "hotSpots": [
+                {
+                    "pitch": -9.3,
+                    "yaw": -1.5,
+                    "type": "scene",
+                    "text": "Lobby",
+                    "sceneId": "lobby"
+                },
+                /* {
+                    "pitch": 16.7,
+                    "yaw": -19.0,
+                    "type": "info",
+                    "text": "The Name: SAJ",
+                    "cssClass": "custom-hotspot",
+                    "createTooltipFunc": hotspot
+                } */
+                {
+                    "pitch": 17.7,
+                    "yaw": -22.0,
+                    "type": "info",
+                    //"text": "The Name: SAJ",
+                    "video": "https://youtube.com/shorts/FJscigxpPAI?feature=share"
+                }
+            ]
+        });
+
+        function hotspot(hotSpotDiv, args) {
+            //hotSpotDiv.classList.add('custom-hotspot');
+            var span = document.createElement('span');
+            span.innerHTML = "<p>Hello, World!</p>";
+            hotSpotDiv.appendChild(span);
+            //span.style.width = span.scrollWidth - 20 + 'px';
+            //span.style.marginLeft = -(span.scrollWidth - hotSpotDiv.offsetWidth) / 2 + 'px';
+            //span.style.marginTop = -span.scrollHeight - 12 + 'px';
+        }
+    </script>
+
+</body>
+
+</html>

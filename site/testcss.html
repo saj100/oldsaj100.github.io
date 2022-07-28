@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Popup</title>
+    <style>
+        #panorama {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: beige;
+            display: block;
+        }
+
+        /*
+        .hotspot1 {
+            width: 50%;
+            height: 50%;
+            background: gray;
+            display: none;
+        }
+        */
+
+        .hotspot2 {
+            /* covers whole viewport */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: white;
+            display: none;
+        }
+
+        #open-button {
+            width=30px;
+            height=10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="panorama">
+        <button id="open-button">Do popup</button>
+        <div id="hotspot" class="hotspot2">
+        </div>
+    </div>
+    <div style="display: none;">
+        <button id="close-button">Close</button>
+        <span id="videoHTML" style="display: block;">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/8uoj8Dk2lRs"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>'
+        </span>
+        <div id="imageHTML" style="display: block;">
+            <img src="https://saj100.github.io/assets/the_name_saj.png" style="width: 100%; max-width: 100%;"></img>
+            <p>The first task Rabbi Kaplan’s group faced when forming a new synagogue in 1922 was to choose an
+                appropriate name. Given its unique role as the pioneer outpost of what was hoped to be a nationwide
+                Reconstructionist movement, conventional terms like “synagogue” or “congregation” or even “center” were
+                eschewed in favor of “society.” As Kaplan later recalled, it was also suggested by a rival Upper West
+                Side-born movement, Felix Adler’s Society for Ethical Culture. Yet unlike Adler’s secular humanist
+                group, Kaplan\’s would be an expressly religious enterprise—albeit ‘civilizational’ in scope and thereby
+                as radical and forward-thinking as Ethical Culture. ‘Moving Judaism forward’ thus became the declared
+                purpose of the new organization, stated clearly and unequivocally in its name: Society for the
+                Advancement of Judaism.</p>
+            </span>
+        </div>
+        <script>
+            //var closeButton = document.querySelector('#close-button');
+            var hotspotDiv = document.querySelector('#hotspot');
+            var panoramaDiv = document.querySelector('#panorama');
+
+
+            let textHTML = "<p>Hello, World!</p>";
+            let videoHTML = document.querySelector('#videoHTML').innerHTML;
+            let imageHTML = document.querySelector('#imageHTML').innerHTML;
+            let iframeHTML = '<iframe width="100%" height="100%" src="https://saj100.github.io/history/name.html"></iframe>';
+            var openButton = document.querySelector('#open-button');
+            openButton.addEventListener('click', () => {
+                console.log("Click open");
+                hotspotDiv.style.display = 'block';
+                let closeButton = document.createElement('button');
+                closeButton.textContent = "Close";
+                closeButton.addEventListener("click", (e) => {
+                    //e.stopPropagation(); // needed?
+                    console.log("Click close")
+                    hotspotDiv.style.display = 'none';
+                    hotspotDiv.innerHTML = "";
+                })
+                hotspotDiv.appendChild(closeButton);
+                let span = document.createElement('span');
+                //span.innerHTML = imageHTML;
+                span.innerHTML = iframeHTML;
+                hotspotDiv.appendChild(span);
+            })
+        </script>
+
+</body>
+
+</html>

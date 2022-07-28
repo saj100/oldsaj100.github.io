@@ -23,19 +23,26 @@
                     "sceneId": "lobby"
                 },
                 {
-                    "pitch": 16.7,
+                    "pitch": -1.1,
+                    "yaw": -53.7,
+                    "type": "info",
+                    "text": "The Neighborhood",
+                    "clickHandlerArgs": "neighborhood.html"
+                },
+                {
+                    "pitch": 15.7,
                     "yaw": -19.0,
                     "type": "info",
                     "text": "The Name: SAJ",
-                    "clickHandlerArgs": "https://saj100.github.io/history/name.html"
+                    "clickHandlerArgs": "the_name_saj.html"
                 }
             ]
         },
         "lobby": {
             "title": "Lobby",
-            "hfov": 91,
-            "pitch": -9.2,
-            "yaw": -11.6,
+            "hfov": 110,
+            "pitch": -0.7,
+            "yaw": -0.3,
             "type": "equirectangular",
             "panorama": "images/lobby.jpg",
             "hotSpots": [
@@ -59,6 +66,27 @@
                     "type": "scene",
                     "text": "Second Floor Hallway",
                     "sceneId": "second_floor_hallway"
+                },
+                {
+                    "pitch": -2.3,
+                    "yaw": -4.2,
+                    "type": "info",
+                    "text": "Who Was Mordecai Kaplan?",
+                    "clickHandlerArgs": "who_was_mordecai_kaplan.html"
+                },
+                {
+                    "pitch": -5.2,
+                    "yaw": 20.0,
+                    "type": "info",
+                    "text": "Founding of the SAJ",
+                    "clickHandlerArgs": "founding.html"
+                },
+                {
+                    "pitch": 39.1,
+                    "yaw": -43.7,
+                    "type": "info",
+                    "text": "Architecture",
+                    "clickHandlerArgs": "architecture.html"
                 },
                 {
                     "pitch": -9.3,
