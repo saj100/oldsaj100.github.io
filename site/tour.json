@@ -113,18 +113,32 @@
                     "sceneId": "lobby"
                 },
                 {
+                    "pitch": -2.9,
+                    "yaw": -14.1,
+                    "type": "info",
+                    "text": "Cantor Nathanson Video Goes Here!!",
+                    "clickHandlerArgs": "notfound.html"
+                },
+                {
                     "pitch": 3.6,
                     "yaw": 8.7,
                     "type": "info",
-                    "text": "Reconstructionism",
-                    "clickHandlerArgs": "https://saj100.github.io/religion/reconstructionism.html"
+                    "text": "Kaplan on Supernaturalism",
+                    "clickHandlerArgs": "kaplan_supernaturalism.html"
                 },
                 {
-                    "pitch": 5.6,
-                    "yaw": 24.6,
+                    "pitch": -32.7,
+                    "yaw": 27.5,
                     "type": "info",
-                    "text": "Judith Kaplan",
-                    "clickHandlerArgs": "https://www.youtube.com/embed/4c2m4zNP4dQ"
+                    "text": "SAJ Motto",
+                    "clickHandlerArgs": "saj_motto.html"
+                },
+                {
+                    "pitch": -2.8,
+                    "yaw": 23.5,
+                    "type": "info",
+                    "text": "Rabbi Miller Sermon",
+                    "clickHandlerArgs": "https://www.youtube.com/embed/gKFMUsUAL9Y"
                 }
             ]
         },
