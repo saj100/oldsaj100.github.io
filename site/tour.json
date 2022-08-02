@@ -2,6 +2,7 @@
     "hotSpotDebug": true,
     "keyboardZoom": false,
     "autoLoad": true,
+    "showControls": false,
     "default": {
         "firstScene": "facade",
         "sceneFadeDuration": 1000

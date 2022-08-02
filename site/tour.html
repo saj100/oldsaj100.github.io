@@ -38,13 +38,31 @@
             width=50px;
             height=15px;
         }
+
+        #close {
+            float: right;
+            display: inline-block;
+            padding: 2px 5px;
+            background: #ccc;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+
+        #close:hover {
+            float: right;
+            display: inline-block;
+            padding: 2px 5px;
+            background: #ccc;
+            color: #fff;
+        }
     </style>
 </head>
 
 <body>
     <div id="panoParent">
         <div id="panorama"></div>
-        <div id="hotspot"></div>
+        <div id="hotspot">
+        </div>
     </div>
     <script>
 
@@ -73,10 +91,12 @@
 
             hotspotDiv.style.display = 'block';
             let closeButton = document.createElement('button');
+            closeButton.setAttribute("id", "close");
+            //let closeButton = document.getElementById("close");
             closeButton.textContent = "Close";
             closeButton.addEventListener("click", (e) => {
                 //e.stopPropagation(); // needed?
-                console.log("Click close")
+                console.log("Click close");
                 hotspotDiv.style.display = 'none';
                 hotspotDiv.innerHTML = "";
             })
